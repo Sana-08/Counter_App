@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 20rem;
+    width: 30rem;
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 30rem;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+#count{
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.3rem;
+}
+
+.btn{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    color: white;
+    background: black;
+}
